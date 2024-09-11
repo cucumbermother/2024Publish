@@ -1,0 +1,25 @@
+/* link html head에 넣기 */
+/* font-face css에 넣기 */
+
+@font-face {
+  font-family: "TTSamlipCreamyWhiteR";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-4@1.0/TTSamlipCreamyWhiteR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.diphylleia-regular {
+  font-family: "Diphylleia", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abc {
+  font-family: "TTSamlipCreamyWhiteR";
+  font-size: 100px;
+}
+
+i {
+  font-size: 100px;
+}

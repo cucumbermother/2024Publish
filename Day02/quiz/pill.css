@@ -1,0 +1,19 @@
+.container {
+  gap: 5px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.pill {
+  border-radius: 50px;
+  border: 1px solid grey;
+  text-align: center;
+  padding: 5px 15px 5px 15px;
+  font-weight: 800;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}

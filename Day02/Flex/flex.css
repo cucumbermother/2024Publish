@@ -1,0 +1,25 @@
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  gap: 10px;
+}
+
+.test {
+  width: 100px;
+  height: 100px;
+}
+.one {
+  background-color: green;
+}
+
+.two {
+  background-color: yellow;
+}
+.three {
+  background-color: red;
+}

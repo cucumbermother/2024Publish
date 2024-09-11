@@ -1,0 +1,16 @@
+div {
+  width: 280px;
+  height: 40px;
+  background-color: black;
+  border-radius: 3px;
+  font-size: 18px;
+  color: white;
+  padding-left: 18px;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+p {
+  color: red;
+  font-size: 20px;
+}
