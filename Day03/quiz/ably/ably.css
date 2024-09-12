@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "TheJamsil5Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container {
+  width: 290px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.photobox {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.photobox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+}
+
+.a {
+  color: rgba(255, 0, 0, 0.582);
+  font-size: 25px;
+  padding-right: 5px;
+  font-weight: 800;
+}
+
+.b {
+  color: rgba(0, 0, 0, 0.925);
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7px;
+  font-size: 18px;
+  color: gray;
+}
+
+.c {
+  font-family: "TheJamsil5Bold";
+  font-weight: 500;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.texts {
+  padding-top: 10px;
+}

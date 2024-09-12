@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Godo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2")
+      format("woff2"),
+    url("//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff")
+      format("woff");
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  margin-top: 50px;
+}
+
+.card {
+  width: 400px;
+  height: 600px;
+  border-radius: 25px;
+}
+
+.one {
+  background-image: url(hotel1.jpg);
+  background-size: cover;
+}
+.two {
+  background-image: url(realnew.jpg);
+  background-size: cover;
+}
+.three {
+  background-image: url(hotel33.jpg);
+  background-size: cover;
+}
+.four {
+  background-image: url(newhotel.jpg);
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 25px;
+  padding-left: 30px;
+  color: white;
+  font-family: "Godo";
+}
+
+.a {
+  width: fit-content;
+  color: rgba(255, 255, 255, 0.692);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.692);
+  padding-bottom: 10px;
+}
+
+.b {
+  font-size: 30px;
+}
+
+.c {
+  font-size: 20px;
+  padding-top: 6px;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
