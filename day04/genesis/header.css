@@ -1,0 +1,100 @@
+.benner {
+  width: 100vw;
+  height: 70px;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.centeredBox {
+  width: 100%;
+
+  max-width: 1650px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo > img {
+  width: 75%;
+  height: 75%;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  color: #ffffffcc;
+
+  margin-left: 37px;
+  gap: 52px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.menu2 {
+  height: 100%;
+  align-items: center;
+  color: #ffffffc7;
+  margin-left: 600px;
+
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  font-size: 14px;
+  padding-bottom: 7px;
+}
+
+.one {
+  font-size: 14px;
+}
+
+.one:hover {
+  color: white;
+  transition: all 0.8s;
+}
+
+.mypages {
+  width: 200px;
+  gap: 30px;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  color: white;
+  transition: all 0.8s;
+}
+
+.icons > i {
+  font-size: 16px;
+  color: #ffffffbb;
+}
+
+.icons {
+  display: flex;
+  gap: 50px;
+  cursor: pointer;
+}
+
+.icons > i:hover {
+  color: white;
+  transition: all 0.8s;
+}

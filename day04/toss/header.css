@@ -1,0 +1,81 @@
+.benner {
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.centeredBox3 {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.toss_icon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.toss_icon > img {
+  width: 27px;
+  height: 30px;
+  width: fit-content;
+  object-fit: cover;
+}
+
+.toss {
+  font-size: 25px;
+  font-weight: 900;
+  color: black;
+}
+
+.menu {
+  display: flex;
+  gap: 26px;
+}
+
+.menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 200px;
+}
+
+.lang {
+  margin: 20px;
+}
+
+.menuIcon {
+  color: gray;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.lang {
+  color: gray;
+  display: flex;
+}
+
+.langIcom {
+  color: grey;
+}
+
+.one {
+  border-right: 2px solid grey;
+  width: fit-content;
+  display: flex;
+  gap: 15px;
+}

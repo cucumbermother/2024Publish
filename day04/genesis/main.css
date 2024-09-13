@@ -1,0 +1,90 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-key-visual-electrified-g80-25fl-main-hero-desktop-2560x900-kr.jpg);
+
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.centeredBox1 {
+  width: 100%;
+  max-width: 1040px;
+  height: 100%;
+  max-height: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.gene {
+  font-size: 27px;
+  font-weight: 100;
+}
+
+.g80 {
+  font-size: 75px;
+}
+
+.electronic {
+  font-size: 27px;
+}
+
+.more {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  gap: 45px;
+}
+
+.more > span {
+  margin-bottom: 100px;
+}
+
+.subject {
+  width: 100vw;
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerbox3 {
+  width: 100%;
+  max-width: 1040px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 30px;
+  justify-content: center;
+}
+
+.our {
+  font-size: 40px;
+}
+
+.all {
+  font-size: 17px;
+  border-bottom: 1px solid white;
+  width: fit-content;
+  padding-bottom: 13px;
+}
+
+.vv {
+  margin-left: 200px;
+}
